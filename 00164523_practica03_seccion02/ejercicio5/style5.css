@@ -1,0 +1,35 @@
+:root{
+    --green: #03fc24;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --pink: #e12afb;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.shopping-cart {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    animation: aparecer 2s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+
+.h2 {
+    margin-top: 0;
+}
